@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header" style="display: flex;gap: 130px;     border: 2px solid rgb(64, 92, 137);
+ background-color:rgb(87, 139, 208)  ">
+    
+            <div>
+                <img style="height: 60px; width:60px; margin-left: 20px;" src="/Images/logo.png" alt="">
+            </div>
+            <div id="navbar" style="display: flex;">
+                <ul>
+                    <a href="/index.html" class="anchor">Home</a>
+                    <a href="/about.html" class="anchor">About</a>
+                    <a href="/portfolio.html" class="anchor">Portfolio</a>
+                    <a href="/contact.html" class="anchor">Contact</a>
+                    
+
+                </ul>
+            </div>
+
+        
+    </div>
+    <div>
+        <fieldset style="display: flex ; font-size: large; margin-block: 30px; gap: 20px; flex-direction: column;">
+        <legend>Your Details</legend>
+       <div>
+        <label for="detail">Name:</label>
+        <input type="text" style="width: 200px;">
+       </div>
+       <div>
+        <label for="detail">Email:</label>
+        <input type="text" style="width: 200px;">
+        </fieldset>
+    </div>
+
+        <div style="display: flex; font-size: large; flex-direction:column; padding-block: 30px;">
+            <fieldset style="display: flex ; flex-direction: column; gap: 20px;">
+                <legend>Your Reviews</legend>
+            <div>
+                <label for="detail">How dis you hear about us?</label>
+                <select id="referral" name="referral">
+                <option value="" disabled selected>Select an option</option>
+                <option value="google">Google</option>
+                <option value="social_media">Social Media</option>
+                <option value="friend">Friend/Family</option>
+                <option value="advertisement">Advertisement</option>
+                <option value="other">Other</option>
+                 </select>
+            </div>
+            <div>
+                <label for="detail">Would you visit again?</label>
+            <div style="display: flex;">
+                <label>
+                    <input type="radio" name="response" value="yes">
+                    Yes
+                  </label>
+                  <label>
+                    <input type="radio" name="response" value="no">
+                    No
+                  </label>
+                  <label>
+                    <input type="radio" name="response" value="maybe">
+                    Maybe
+                  </label>
+            </div>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="Comment">Comments</label>
+                <textarea name="comment" id="comment" style="height: 80px; width: 250px;"></textarea>
+        
+            </div>
+           <div>
+            <label>
+                <input type="checkbox" name="response" value="maybe">
+                Sign me up for email updates
+              </label>
+           </div>
+             <div>
+                <button style="font-size: large; border-radius: 15px;">
+                    Submit review
+                  </button>
+             </div>
+            </fieldset>
+        </div>
+        <div style="justify-self: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41386.21792004097!2d68.2672629537607!3d25.360155165184604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c7b0a0a802cb5%3A0x8d0e18e6460cfa65!2sStudio%20Inn%20Photography%20%26%20Films%20by%20Ayaz%20Khan!5e1!3m2!1sen!2s!4v1731761334597!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+       
+    </div>
+    <div id="footer">
+        <footer>
+            <p>Copyright &copy; 2019. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
